@@ -1,0 +1,61 @@
+body {
+    font-family:arial, sans-serif;
+    font-size:13px;
+    /*text-align:center;*/
+    height:100%;
+    color:#000;
+}
+
+.header-div {
+
+}
+
+.heading-div {
+    margin:5px;
+    padding:5px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.problem-div {
+    margin:5px;
+    padding:5px;
+}
+
+.problem-name {
+    font-size:16px;
+    font-weight:bold;
+    padding:5px;
+}
+
+.problem-discription {
+    padding:5px;
+
+}
+
+.problem-form {
+    padding:5px;
+
+}
+
+.problem-input {
+    padding:2px;
+
+}
+
+.problem-button {
+    padding:2px;
+
+}
+
+.footer-div {
+
+}
+
+.footer-item {
+
+}
+
+.footer-item-right {
+
+}
