@@ -4,6 +4,7 @@ body {
     /*text-align:center;*/
     height:100%;
     color:#000;
+    background-color:#eee;
 }
 
 .header-div {
@@ -12,14 +13,16 @@ body {
 
 .heading-div {
     margin:5px;
-    padding:5px;
+    padding:15px 5px 15px 5px;
     font-size:18px;
     font-weight:bold;
+    background-color:#ff9775;
 }
 
 .problem-div {
     margin:5px;
-    padding:5px;
+    padding:5px 5px 5px 15px;
+    background-color:#8eb7d2;
 }
 
 .problem-name {
@@ -48,8 +51,14 @@ body {
 
 }
 
-.footer-div {
+.solution {
+    padding-left:5px;
+}
 
+.footer-div {
+    margin:5px;
+    background-color:#ff9775;
+    padding:5px;
 }
 
 .footer-item {
@@ -57,5 +66,5 @@ body {
 }
 
 .footer-item-right {
-
+    float:right;
 }
