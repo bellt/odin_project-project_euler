@@ -9,16 +9,19 @@ function problem1(e) {
     return false;
 }*/
 function problem1() {
-    document.getElementById('answer1').innerHTML = 'the answer';
+    var input1 = document.getElementById('problem1_input').value;
+    document.getElementById('answer1').innerHTML = input1;
     return false;
 }
 
 function problem2() {
-    document.getElementById('answer2').innerHTML = 'the answer';
+    var input2 = document.getElementById('problem2_input').value;
+    document.getElementById('answer2').innerHTML = input2;
     return false;
 }
 
 function problem3() {
-    document.getElementById('answer3').innerHTML = 'the answer';
+    var input3 = document.getElementById('problem3_input').value;
+    document.getElementById('answer3').innerHTML = input3;
     return false;
 }
