@@ -24,7 +24,21 @@ function problem1() {
 
 function problem2() {
     var input2 = document.getElementById('problem2_input').value;
-    document.getElementById('answer2').innerHTML = input2;
+    var fibonacci = [1,2];
+    var sum = 0;
+    for(i = 2; i < input2; i++){
+        if(fibonacci[i] > input2){
+            break; //this doesn't currently do what I want it to
+        }
+        fibonacci.push(fibonacci[i-1] + fibonacci[i-2]);
+    }
+    for(i = 0; i < fibonacci.length; i++){
+        if(fibonacci[i] % 2 === 0){
+            sum+=fibonacci[i];
+        }
+    }
+    alert(fibonacci);
+    document.getElementById('answer2').innerHTML = sum;
     return false;
 }
 
