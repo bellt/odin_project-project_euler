@@ -31,8 +31,24 @@ function problem2() {
     return false;
 }
 
+var isPrime = function(number){
+    //apparently 4 is a prime number!? Fix this
+    for(i=2;i<number/2;i++){
+        if(number % i === 0){
+            return false;
+        }
+    }
+    return true; 
+}
+
 function problem3() {
     var input3 = document.getElementById('problem3_input').value;
-    document.getElementById('answer3').innerHTML = input3;
+    test_answer = isPrime(input3);
+
+    if(test_answer === true){
+        document.getElementById('answer3').innerHTML = "That's a prime!";
+    } else{
+        document.getElementById('answer3').innerHTML = "That's not a prime :-(";
+    }
     return false;
 }
